@@ -1,0 +1,64 @@
+.presents {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+    
+    
+}
+.presents_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 166px; 
+}
+.presents_title {
+    color: rgb(255, 255, 255);
+    font-family: 'Tele2 DisplaySerif';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    width: 936px;
+    margin-top: 148px;
+}
+.presents_opisanie {
+    color: rgb(255, 255, 255);
+    font-family: 'Tele2 TextSans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    width: 665px;
+    
+    }
+.present_bonus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    font-family: Tele2 TextSans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-left: 166px;
+    
+
+}
+.presents_bonus_one {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    
+}
+.presents_bonus_one_text {
+    margin-left: 16px;
+    
+}
+.presents_img{
+    
+}
+@media(max-width: 1100px){
+}

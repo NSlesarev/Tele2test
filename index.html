@@ -1,12 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
-</head>
-<body>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/style.scss">
+    <title>Tele2</title>
+  </head>
+  <body>
+    <header class="header">
+        <a href="/" class="header_logo">
+            <img src="/src/assets/img/Icons_Logo.png" alt="лого">
+        </a>
+        <button class="header_city">
+            <img class="header_city_icon" src="/src/assets/img/Icons_Location.png" alt="локация">
+            <a class="header_city_city" href="/">Санкт-Петербург</a>
+        </button>
+    </header>
+    <section class="promo">
+        <main class="promo_text">
+            <p class="promo_text_mini">Акция продлится с 1 по 20 сентября</p>
+            <h1 class="promo_text_title">это ваша <br><span class="promo_text_title_span_color">выгода!</span></h1>
+            <p class="promo_text_opisanie">Тариф «Мой онлайн+» и 1 ТБ трафика в подарок для новых абонентов</p>
+            <button class="promo_buttom">Принять участие</button>
+        </main>
+        <img class="promo_img" src="/src/assets/img/Boss12.png" alt="Дед с интернетом">
+    </section>
+    <section class="presents">
+        <main class="presents_text">
+            <h2 class="presents_title">Один терабайт — много любимых развлечений</h2>
+            <p class="presents_opisanie">Подарок получают только новые абоненты при подключении услуг Tele2 <br> 
+                с тарифом «Мой онлайн+». Трафик расходуется в течение года. </p>
+        </main>
+        <dib class="present_bonus">
+            <div class="presents_bonus_one">
+                <img class="presents_img" src="/src/assets/img/11.svg" alt="кружок плей">
+                <p class="presents_bonus_one_text">Около 500 часов видео</p>
+            </div>
+            <div class="presents_bonus_one">
+                <img class="presents_img" src="/src/assets/img/2.svg" alt="кружок плей">
+                <p class="presents_bonus_one_text">Примерно 200 000 песен</p>
+            </div>
+            <div class="presents_bonus_one">
+                <img class="presents_img" src="/src/assets/img/33.svg" alt="кружок плей">
+                <p class="presents_bonus_one_text">Порядка 300 000 фото</p>
+            </div>
+        </dib>      
+    </section>
+
+
+
     
-</body>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
 </html>

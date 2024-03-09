@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(31, 34, 41);
+}
+.promo {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 34, 41);
+    color: rgb(255, 255, 255);
+    max-width: 1440px;
+    margin: auto;
+}
+.promo_text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 162px;
+}
+.promo_text_mini {
+    font-family: Tele2 TextSans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 83px;
+    margin-bottom: 48px;
+    width: 340px;
+}
+.promo_text_title {
+    font-family: 'Standard CT Stencil';
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    
+}
+.promo_text_title_span_color {
+    color: rgb(72, 204, 253);
+}
+.promo_text_opisanie {
+    color: rgb(255, 255, 255);
+    font-family: Tele2 TextSans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 56px;
+}
+.promo_buttom {
+    color: rgb(31, 34, 41);
+    font-family: Tele2 TextSans Web SHORT;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 30px;
+    width: 209px;
+    height: 60px;
+}
+.promo_img {
+    margin-left: 55px;
+}
+@media(max-width: 1100px){
+    .promo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .promo_text_mini{
+        color: rgb(255, 255, 255);
+        font-family: Tele2 TextSans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        
+        margin-top: 24px;
+        margin-bottom: 40px;
+        width: 296px;
+        margin-left: 16px;
+    }
+    .promo_text_title{
+        font-family: Standard CT Stencil;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        
+        text-transform: uppercase;
+        margin-left: 16px;
+        width: 285px;
+    }
+    .promo_text_opisanie{
+        font-family: Tele2 TextSans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        
+        margin-left: 16px;
+        width: 288px;
+        margin-bottom: 40px;
+    }
+    .promo_buttom{
+        width: 201px;
+        height: 48px;
+        margin-left: 16px;
+        margin-bottom: 48px;
+    }
+    .promo_img{
+        margin: auto;
+        width: 316px;
+        height: 333px;
+        
+    
+        
+    }
+
+}
