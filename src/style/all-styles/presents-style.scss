@@ -36,7 +36,6 @@
 .present_bonus{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     color: rgb(255, 255, 255);
     font-family: Tele2 TextSans;
     font-size: 20px;
@@ -44,13 +43,25 @@
     line-height: normal;
     letter-spacing: 0%;
     margin-left: 166px;
-    
-
 }
-.presents_bonus_one {
+.presents_bonus_one1 {
     display: flex;
     align-items: center;
     margin-top: 56px;
+    
+}
+.presents_bonus_one2 {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 56px;
+    
+}
+.presents_bonus_one3 {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 56px;
     
 }
 .presents_bonus_one_text {
@@ -58,7 +69,70 @@
     
 }
 .presents_img{
+    width: 72px;
+    height: 72px;
     
 }
 @media(max-width: 1100px){
+    .presents {
+        max-width: 320px;
+    }
+    .presents_text {
+        margin: auto;
+    }
+    .presents_title {
+        color: rgb(255, 255, 255);
+        font-family: Tele2 DisplaySerif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        width: 288px;
+        margin-top: 72px;
+    }
+    .presents_opisanie {
+        color: rgb(255, 255, 255);
+        font-family: Tele2 TextSans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 288px;
+        margin-top: 16px;
+        br{
+            display: none;
+        }
+    }
+    .present_bonus {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+    .presents_bonus_one1 {
+        margin-top: 40px;
+    }
+    .presents_img {
+        width: 56px;
+        height: 56px;
+    }
+    .presents_bonus_one_text {
+        font-family: Tele2 TextSans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .presents_bonus_one2 {
+        margin-left: 0;
+        margin-top: 32px;
+
+        
+    }
+    .presents_bonus_one3 {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+
 }

@@ -3,7 +3,7 @@ body{
 }
 .promo {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     background-color: rgb(31, 34, 41);
     color: rgb(255, 255, 255);
     max-width: 1440px;
@@ -63,9 +63,12 @@ body{
     height: 60px;
 }
 .promo_img {
-    margin-left: 55px;
+    margin-left: 56px;
 }
 @media(max-width: 1100px){
+    .promo_text{
+        margin: auto;
+    }
     .promo{
         display: flex;
         flex-direction: column;
@@ -104,6 +107,9 @@ body{
         font-weight: 400;
         line-height: 150%;
         letter-spacing: 0%;
+        br{
+            display: none;
+        }
         
         margin-left: 16px;
         width: 288px;
@@ -117,8 +123,8 @@ body{
     }
     .promo_img{
         margin: auto;
-        width: 316px;
-        height: 333px;
+        width: auto;
+        height: 333px; 
         
     
         

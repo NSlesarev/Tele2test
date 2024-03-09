@@ -51,11 +51,18 @@
     
     .header_city_icon{
         width: 20px;
+        margin-right: 13px;
+        margin-left: 80px;
+        
     }
     .header_city_city{
         width: 135px;
+        font-family: 'Tele2 TextSans';
         font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0px;
+        text-align: left;
         
     }
-
 }
