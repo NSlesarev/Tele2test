@@ -12,6 +12,9 @@
     margin-left: 162px;
     
 }
+.number_text_title_mobile{
+    display: none;
+}
 .number_text_title_desctop {
     color: rgb(255, 255, 255);
     font-family: Tele2 DisplaySerif;
@@ -180,6 +183,7 @@
         display: none;
     }
     .form_number_mobile{
+        display: block;
         margin-left: 16px;
     }
     .number {
@@ -199,6 +203,7 @@
         
     }
     .number_text_title_mobile{
+        display: block;
         font-size: 24px;
         font-weight: 700;
         line-height: 140%;
@@ -225,6 +230,8 @@
     .number_text_button {
         width: 218px;
         margin-left: 30px;
+        padding: 11px 40px 11px 40px;
+
     }
     .number_rules {
         margin: auto;
