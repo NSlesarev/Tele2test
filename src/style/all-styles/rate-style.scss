@@ -1,0 +1,57 @@
+.rate {
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.rate-content {
+    display: flex;
+    flex-direction: row;
+    
+}
+.rate-content__text {
+    margin-left: 162px;
+    margin-top: 200px;
+}
+.rate-content__text__title {
+    color: rgb(255, 255, 255);
+    font-family: 'Tele2 DisplaySerif';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    width: 447px;
+    
+}
+.rate-content__text__opisanie__desctop {
+    color: rgb(255, 255, 255);
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 513px;
+    margin-top: 30px;
+}
+.rate-content__text__opisanie__mobile {
+    display: none;
+    
+}
+.rate-content__text__button_desctop {
+    color: rgb(31, 34, 41);
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border-radius: 48px;
+    padding: 11px 40px;
+    margin-top: 48px;
+}
+.rate-content_img {
+    margin-top: 162px;
+    margin-right: 288px;
+    margin-left: 118px;
+}
+.rate-content__text__button_mobile {
+    display: none;
+}
