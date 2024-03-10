@@ -1,5 +1,9 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
 .number {
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     display: flex;
     flex-direction: row;
     max-width: 1440px;
@@ -16,7 +20,7 @@
     display: none;
 }
 .number_text_title_desctop {
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     font-family: Tele2 DisplaySerif;
     font-size: 40px;
     font-weight: 700;
@@ -49,13 +53,15 @@
     background: transparent;
     border: none;
     border-bottom: 2px solid rgb(143, 147, 153);
+    outline: none;
+    color: $osnovatext;
 }
 .number_text_tel::before{
     content: "";
-    color: white;
+    color: $osnovatext;
 }
 .number_text_tel_num::placeholder{
-    color: rgb(255, 255, 255);
+    color: rgb(72, 204, 253);
     font-family: 'Tele2 Text';
     font-size: 16px;
     font-weight: 400;
@@ -84,7 +90,7 @@
     width: 20px;
     height: 20px;
     background: rgb(31, 34, 41);
-    border: 2px white solid;
+    border: 2px $osnovatext solid;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50%;
@@ -108,7 +114,7 @@
     
 }
 .number_text_data_link1{
-    color: white;
+    color: $osnovatext;
 }
 .number_text_button {
     color: rgb(31, 34, 41);
@@ -159,7 +165,7 @@
     margin-left: 24px;
     width: 494px;
     .number_rules_2_text_site{
-        color: white;
+        color: $osnovatext;
     }
 }
 
@@ -220,6 +226,7 @@
         letter-spacing: 0%;
         width: 288px;
     }
+    
     .number_text_data_data {
         font-size: 16px;
         font-weight: 400;
@@ -231,6 +238,15 @@
         width: 218px;
         margin-left: 30px;
         padding: 11px 40px 11px 40px;
+        color: rgb(31, 34, 41);
+        font-family: 'Tele2 Text';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+        border-radius: 48px;
+        padding: 11px 40px;
 
     }
     .number_rules {

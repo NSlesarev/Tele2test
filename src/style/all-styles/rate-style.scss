@@ -1,3 +1,7 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
 .rate {
     max-width: 1440px;
     margin: auto;
@@ -57,6 +61,7 @@
 }
 @media(max-width: 1100px){
     .rate {
+        
         max-width: 320px;
     }
     .rate-content {
@@ -69,13 +74,13 @@
         flex-direction: column;
         margin-top: 72px;
         margin-left: 16px;
-
     }
     .rate-content__text__title {
         font-size: 24px;
         font-weight: 700;
         line-height: 140%;
         letter-spacing: 0%;
+        width: 268px;
     }
     .rate-content__text__opisanie__desctop {
         display: none;

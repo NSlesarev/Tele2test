@@ -1,5 +1,9 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
 .presents {
-    color: white;
+    color: $osnovatext;
     display: flex;
     flex-direction: column;
     max-width: 1440px;
@@ -13,7 +17,7 @@
     margin-left: 166px; 
 }
 .presents_title {
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     font-family: 'Tele2 DisplaySerif';
     font-size: 40px;
     font-weight: 700;
@@ -23,7 +27,7 @@
     margin-top: 148px;
 }
 .presents_opisanie {
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     font-family: 'Tele2 TextSans';
     font-size: 20px;
     font-weight: 400;
@@ -36,7 +40,7 @@
 .present_bonus{
     display: flex;
     flex-direction: row;
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     font-family: Tele2 TextSans;
     font-size: 20px;
     font-weight: 400;
@@ -81,7 +85,7 @@
         margin: auto;
     }
     .presents_title {
-        color: rgb(255, 255, 255);
+        color: $osnovatext;
         font-family: Tele2 DisplaySerif;
         font-size: 24px;
         font-weight: 700;
@@ -91,7 +95,7 @@
         margin-top: 72px;
     }
     .presents_opisanie {
-        color: rgb(255, 255, 255);
+        color: $osnovatext;
         font-family: Tele2 TextSans;
         font-size: 18px;
         font-weight: 400;

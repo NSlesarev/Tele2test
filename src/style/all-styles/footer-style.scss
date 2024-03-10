@@ -1,3 +1,8 @@
+
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
 .footer {
     max-width: 1440px;
     margin: auto;
@@ -16,6 +21,7 @@
     width: 128px;
     height: 40px;
 }
+
 .icon-media {
     width: 40px;
     text-align: center;
@@ -80,8 +86,6 @@
     
 
 }
-.footer-oleg__studio {
-}
 .footer-oleg__studio__text {
     color: gray;
     font-family: 'Tele2 Text';
@@ -90,4 +94,96 @@
     line-height: 18px;
     letter-spacing: 0%;
     margin-right: 24px;
+}
+@media(max-width: 1100px){
+    .footer {
+        
+        max-width: 320px;
+        
+    }
+    .footer-promotion{
+        margin: auto;
+    }
+    .footer-promotion__img{
+        margin-right: 10px;
+    }
+    .footer-content {
+        margin-top: 72px;
+        justify-content: center; 
+    }
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 16px;
+        overflow: visible;
+    }
+    .media-1{
+        order: 2;
+    }
+    .media-2{
+        order: 3;
+    }
+    .media-3{
+        order: 1;
+    }
+
+    .icon-media {
+        width: 24px;
+        height: 24px;
+    }
+    .icon-media__img {
+        width: 24px;
+        height: 24px;   
+    }
+    .footer-promotion {
+        margin-left: 43px;
+    }
+    .footer-promotion__text {
+        color: rgb(255, 255, 255);
+        font-family: 'Tele2 Text';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+    .footer-promotion__img__img {
+        width: 32px;
+        height: 32px;
+    }
+    .footer-poloska {
+        width: 320px;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        justify-content: center;
+    }
+    .footer-info__logo {
+        margin-top: 27px;
+    }
+    .footer-info__logo__img__img {
+        width: 70px;
+        height: 30px;
+        margin-left: 16px;
+    }
+    .footer-info__text {
+        width: 144px;
+        margin-right: 49px;
+        margin-left: 32px;
+        font-family: 'Tele2 Text';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+
+    }
+    .footer-oleg {
+        display: none;
+    }
 }

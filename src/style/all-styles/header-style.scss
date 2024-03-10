@@ -1,7 +1,13 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2229;
+    background-color: $backgroundcolor;
     border-bottom: 1px solid #383d4a;
     padding-bottom: 10px;
     font-size: 20px;
@@ -19,7 +25,7 @@
     align-items: center;
     margin-top: 20px;
     margin-right: 30px;
-    background-color: #1F2229;
+    background-color: $backgroundcolor;
     border: none;
 }
 .header_city_icon {
@@ -28,7 +34,7 @@
 }
 .header_city_city {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     font-family: Tele2 TextSans;
     font-size: 20px;
     margin-right: 14px;

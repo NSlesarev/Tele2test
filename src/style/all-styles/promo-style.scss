@@ -1,11 +1,14 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
 body{
     background-color: rgb(31, 34, 41);
 }
 .promo {
     display: flex;
-    // justify-content: center;
     background-color: rgb(31, 34, 41);
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     max-width: 1440px;
     margin: auto;
 }
@@ -42,7 +45,7 @@ body{
     color: rgb(72, 204, 253);
 }
 .promo_text_opisanie {
-    color: rgb(255, 255, 255);
+    color: $osnovatext;
     font-family: Tele2 TextSans;
     font-size: 20px;
     font-weight: 400;
@@ -81,7 +84,7 @@ body{
         
     }
     .promo_text_mini{
-        color: rgb(255, 255, 255);
+        color: $osnovatext;
         font-family: Tele2 TextSans;
         font-size: 16px;
         font-weight: 400;
