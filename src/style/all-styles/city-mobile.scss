@@ -5,9 +5,12 @@ $spantext: rgb(72, 204, 253);
 $textgrey: grey;
 
 @media(max-width: 1100px){
+    .city-desctop{
+        display: none;
+    }
 
     .city-mobile {
-        
+        height: 700px;
         position: absolute;
         color: $osnovatext;
         background-color: $backgroundcolor;
@@ -18,10 +21,11 @@ $textgrey: grey;
         left: 50%;
         margin-left: -160px;
         z-index: 100;
-        width: 100%;   
+           
     }
     .visible{
         visibility: visible;
+        cursor: pointer;
     }
     .h3-mob {
         font-family: 'Tele2 DisplaySerif';

@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style/style.scss">
+    <link rel="shortcut icon" href="/src/assets/img/lofofav32x32.png" type="image/x-icon">
     <title>Tele2</title>
   </head>
   <body>
+    <div class="background-color-modal"></div>
     <header class="header">
         <a href="/" class="header_logo">
             <img src="/src/assets/img/Icons_Logo.png" alt="лого">
@@ -14,14 +16,24 @@
         <button class="header_city">
             <img class="header_city_icon" src="/src/assets/img/Icons_Location.png" alt="локация">
             <p class="header_city_city">Санкт-Петербург</p>
+
+            <div class="header-planka">
+
+                <div class="header-planka__container">
+                        <img class="header-planka__container__img" src="/src/assets/img/strel.svg" alt="">
+
+                        <p class="header-planka__container__title">Ваш регион Санкт-Петербург?<span id="currentCity"></span></p>
+
+                    <div class="header-planka__options">
+                        
+                        <p class="header-planka__options__yes">Да, верно</p>
+                        <p class="header-planka__options__change">Изменить регион</p>
+                        
+                    </div>
+                </div>
+            </div>
         </button>
     </header>
-    <!-- <section class="planka">
-        <div class="planka-container">
-            <div class="planka-container__title">Ваш регион Санкт-Петербург?</div>
-            
-        </div>
-    </section> -->
     <section class="city-desctop">
         <h3 class="h3-des">Выберите город</h3>
         <table class="table-city">
@@ -119,9 +131,9 @@
                     <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
                     <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
                 </label>
-                <p class="checkbox">               
-                    <input class="number_text_data_box" type="checkbox" id="agree">
-                    <label class="number_text_data" for="agree">
+                <p>               
+                    <input class="number_text_data_box" type="checkbox" id="agree-des">
+                    <label class="number_text_data" for="agree-des">
                         <p class="number_text_data_data">Даю согласие на обработку персональных данных. <a class="number_text_data_link1" href="/"> Условия соглашения</a>.</p></label> 
                 </p> 
                 <input class="number_text_button" type="submit" value="Выслать промокод"></input>
@@ -147,9 +159,9 @@
                 <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
                 <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
             </label>
-            <p class="checkbox">               
-                <input class="number_text_data_box" type="checkbox" id="agree">
-                <label class="number_text_data" for="agree">
+            <p>               
+                <input class="number_text_data_box" type="checkbox" id="agree-mob">
+                <label class="number_text_data" for="agree-mob">
                     <p class="number_text_data_data">Даю согласие на обработку персональных данных. <a class="number_text_data_link1" href="/"> Условия соглашения</a>.</p></label> 
             </p> 
             <input class="number_text_button" type="submit" value="Выслать промокод"></input>

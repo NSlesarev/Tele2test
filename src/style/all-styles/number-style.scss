@@ -3,6 +3,7 @@ $backgroundcolor: #1F2229;
 $osnovatext: rgb(255, 255, 255);
 $spantext: rgb(72, 204, 253);
 $colorgrey: grey;
+
 .number {
     color: $osnovatext;
     display: flex;
@@ -72,7 +73,7 @@ $colorgrey: grey;
     
 }
 
-#agree{
+#agree-des{
     display: none;
     
 }
@@ -81,7 +82,7 @@ $colorgrey: grey;
     margin-top: 30px;
     width: 24px;
 }
-#agree:checked + .number_text_data::before {
+#agree-des:checked + .number_text_data::before {
     background-image: url(/src/assets/img/galka.svg);
 
     
@@ -126,6 +127,10 @@ $colorgrey: grey;
     letter-spacing: 0%;
     border-radius: 48px;
     padding: 11px 40px;
+    cursor: pointer;
+    &:hover{
+        color: $spantext;
+    }
 }
 .number_rules {
     margin-left: 141px;
@@ -186,6 +191,9 @@ $colorgrey: grey;
     
 }
 @media(max-width: 1100px){
+    #agree-mob{
+        display: none;
+    }
     
     .form_number_desctop{
         display: none;
@@ -198,15 +206,16 @@ $colorgrey: grey;
         display: flex;
         flex-direction: column;
         max-width: 320px;
-        margin-top: 72px;
+        margin-top: 0;
+        padding-top: 72px;
     }
     .number_text {
-        width: 272px;
         font-size: 24px;
         font-weight: 700;
         line-height: 140%;
         letter-spacing: 0%;
         margin: auto;
+        margin-left: 16px;
 
         
     }
@@ -228,7 +237,9 @@ $colorgrey: grey;
         letter-spacing: 0%;
         width: 288px;
     }
-    
+    #agree-mob:checked + .number_text_data::before {
+        background-image: url(/src/assets/img/galka.svg);
+    }
     .number_text_data_data {
         font-size: 16px;
         font-weight: 400;
@@ -252,7 +263,7 @@ $colorgrey: grey;
 
     }
     .number_rules {
-        margin: auto;
+        margin-left: 16px;
     }
     .number_rules_1 {
         display: flex;
@@ -270,12 +281,10 @@ $colorgrey: grey;
         line-height: 150%;
         letter-spacing: 0%;
         text-align: left;
-        width: 288px;
         margin: 0;
         
     }
     .number_rules_2 {
-        width: 272px;
         flex-direction: column;
         align-items: start;
         
