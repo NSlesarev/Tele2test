@@ -2,12 +2,13 @@
 $backgroundcolor: #1F2229;
 $osnovatext: rgb(255, 255, 255);
 $spantext: rgb(72, 204, 253);
+$colorgrey: grey;
 body{
-    background-color: rgb(31, 34, 41);
+    background-color: $backgroundcolor;
 }
 .promo {
     display: flex;
-    background-color: rgb(31, 34, 41);
+    background-color: $backgroundcolor;
     color: $osnovatext;
     max-width: 1440px;
     margin: auto;
@@ -20,7 +21,7 @@ body{
     width: 477px;
 }
 .promo_text_mini {
-    font-family: Tele2 TextSans;
+    font-family: 'Tele2 Text';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
@@ -42,11 +43,11 @@ body{
     
 }
 .promo_text_title_span_color {
-    color: rgb(72, 204, 253);
+    color: $spantext;
 }
 .promo_text_opisanie {
     color: $osnovatext;
-    font-family: Tele2 TextSans;
+    font-family: 'Tele2 Text';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
@@ -55,8 +56,8 @@ body{
     margin-bottom: 56px;
 }
 .promo_buttom {
-    color: rgb(31, 34, 41);
-    font-family: Tele2 TextSans Web SHORT;
+    color: $backgroundcolor;
+    font-family: 'Tele2 Text';
     font-size: 16px;
     font-weight: 700;
     line-height: 22px;
@@ -85,19 +86,19 @@ body{
     }
     .promo_text_mini{
         color: $osnovatext;
-        font-family: Tele2 TextSans;
+        font-family: 'Tele2 Text';
         font-size: 16px;
         font-weight: 400;
         line-height: 150%;
         letter-spacing: 0%;
-        
         margin-top: 24px;
         margin-bottom: 40px;
-        width: 296px;
         margin-left: 16px;
+        
+        
     }
     .promo_text_title{
-        font-family: Standard CT Stencil;
+        font-family: 'Standard CT Stencil';
         font-size: 36px;
         font-weight: 700;
         line-height: 100%;
@@ -108,7 +109,7 @@ body{
         width: 285px;
     }
     .promo_text_opisanie{
-        font-family: Tele2 TextSans;
+        font-family: 'Tele2 Text';
         font-size: 18px;
         font-weight: 400;
         line-height: 150%;

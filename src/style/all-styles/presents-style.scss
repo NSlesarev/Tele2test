@@ -2,6 +2,7 @@
 $backgroundcolor: #1F2229;
 $osnovatext: rgb(255, 255, 255);
 $spantext: rgb(72, 204, 253);
+$colorgrey: grey;
 .presents {
     color: $osnovatext;
     display: flex;
@@ -28,7 +29,7 @@ $spantext: rgb(72, 204, 253);
 }
 .presents_opisanie {
     color: $osnovatext;
-    font-family: 'Tele2 TextSans';
+    font-family: 'Tele2 Text';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
@@ -41,7 +42,7 @@ $spantext: rgb(72, 204, 253);
     display: flex;
     flex-direction: row;
     color: $osnovatext;
-    font-family: Tele2 TextSans;
+    font-family: 'Tele2 Text';
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
@@ -96,7 +97,7 @@ $spantext: rgb(72, 204, 253);
     }
     .presents_opisanie {
         color: $osnovatext;
-        font-family: Tele2 TextSans;
+        font-family: 'Tele2 Text';
         font-size: 18px;
         font-weight: 400;
         line-height: 150%;
@@ -121,7 +122,7 @@ $spantext: rgb(72, 204, 253);
         height: 56px;
     }
     .presents_bonus_one_text {
-        font-family: Tele2 TextSans;
+        font-family: 'Tele2 Text';
         font-size: 18px;
         font-weight: 400;
         line-height: 150%;

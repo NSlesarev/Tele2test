@@ -13,10 +13,73 @@
         </a>
         <button class="header_city">
             <img class="header_city_icon" src="/src/assets/img/Icons_Location.png" alt="локация">
-            <a class="header_city_city" href="/">Санкт-Петербург</a>
+            <p class="header_city_city">Санкт-Петербург</p>
         </button>
     </header>
-    <section class="s"></section>
+    <!-- <section class="planka">
+        <div class="planka-container">
+            <div class="planka-container__title">Ваш регион Санкт-Петербург?</div>
+            
+        </div>
+    </section> -->
+    <section class="city-desctop">
+        <h3 class="h3-des">Выберите город</h3>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Воронеж</td>
+                <td class="city">Москва</td>
+                <td class="city">Ростов-на-Дону</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Иркутск</td>
+                <td class="city">Н.Новгород</td>
+                <td class="city">Санкт-Петербург</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Кемерово</td>
+                <td class="city">Новосибирск</td>
+                <td class="city">Челябинск</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Красноярск</td>
+                <td class="city">Пермь</td>
+            </tr>
+        </table>
+    </section>
+    <section class="city-mobile">
+        <h3 class="h3-mob">Выберите город</h3>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Воронеж</td>
+                <td class="city">Новосибирск</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Иркутск</td>
+                <td class="city">Пермь</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Кемерово</td>
+                <td class="city">Санкт-Петербург</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Красноярск</td>
+                <td class="city">Челябинск</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Москва</td>
+                <td class="city">Ростов-на-Дону</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Н.Новгород</td>
+            </tr>
+        </table>
+    </section>
     <section class="promo">
         <main class="promo_text">
             <p class="promo_text_mini">Акция продлится с 1 по 20 сентября</p>
@@ -98,12 +161,16 @@
                 <div class="rate-content__text__title">Заходите на сайт Tele2</div>
                 <div class="rate-content__text__opisanie__desctop">Перейдите в магазин, оформите тариф «Мой онлайн+»<br> и на страничке активации введите ваш промокод. Готово! </div>
                 <div class="rate-content__text__opisanie__mobile">Перейдите в магазин на страничку активации, введите ваш промокод. Готово! Теперь вы получите 1 ТБ на ваш телефон при подключении тарифа «Мой онлайн+».</div>
-                <button class="rate-content__text__button_desctop">Оформить тариф</button>
+                <button class="rate-content__text__button_desctop">
+                    <a class="button__site__desctop" href="https://rostov.tele2.ru/" target="_blank">Оформить тариф</a>
+                </button>
             </div>
             <div class="rate-content_img">
                 <img class="rate-content_img_img" src="/src/assets/img/telefon.png" alt="картинка с телефоном и фоном круглым">
             </div>
-            <button class="rate-content__text__button_mobile">Оформить тариф</button>
+            <button class="rate-content__text__button_mobile">
+                <a class="button__site__mobile" href="https://rostov.tele2.ru/">Оформить тариф</a>
+            </button>
         </div>
     </section>
     <footer class="footer">
@@ -133,7 +200,7 @@
         <div class="footer-info">
             <div class="footer-info__logo">
                 <a class="footer-info__logo__img" href="">
-                    <img class="footer-info__logo__img__img" src="./src/assets/img/Icons_Logo.png" alt="">
+                    <img class="footer-info__logo__img__img" src="./src/assets/img/Icons_Logo.png" alt="лого теле2">
                 </a>
                 <p class="footer-info__text">© Tele2 Россия, 2021</p>
             </div>

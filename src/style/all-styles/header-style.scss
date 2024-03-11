@@ -2,13 +2,15 @@
 $backgroundcolor: #1F2229;
 $osnovatext: rgb(255, 255, 255);
 $spantext: rgb(72, 204, 253);
+$colorgrey: grey;
+$bordercolor: #383d4a; 
 
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: $backgroundcolor;
-    border-bottom: 1px solid #383d4a;
+    border-bottom: 1px solid $bordercolor;
     padding-bottom: 10px;
     font-size: 20px;
     max-width: 1440px;
@@ -27,6 +29,7 @@ $spantext: rgb(72, 204, 253);
     margin-right: 30px;
     background-color: $backgroundcolor;
     border: none;
+    cursor: pointer;
 }
 .header_city_icon {
     vertical-align: top;
@@ -35,7 +38,7 @@ $spantext: rgb(72, 204, 253);
 .header_city_city {
     text-decoration: none;
     color: $osnovatext;
-    font-family: Tele2 TextSans;
+    font-family: 'Tele2 Text';
     font-size: 20px;
     margin-right: 14px;
 }
@@ -43,11 +46,14 @@ $spantext: rgb(72, 204, 253);
     .header_city{
         margin-top: 8px;
         margin-right: 14px;
+        width: 167px;
 
+        
     }
     .header_logo{
         margin-top: 13px;
         margin-left: 16px;
+        margin-bottom: 10px;
     }
     img{
         width: 48px;
@@ -57,18 +63,15 @@ $spantext: rgb(72, 204, 253);
     
     .header_city_icon{
         width: 20px;
-        margin-right: 13px;
-        margin-left: 80px;
         
     }
     .header_city_city{
-        width: 135px;
-        font-family: 'Tele2 TextSans';
-        font-size: 18px;
+        font-family: 'Tele2 Text';
+        font-size: 15px;
         font-weight: 400;
         line-height: 150%;
         letter-spacing: 0px;
-        text-align: left;
+        margin-right: 14px;
         
     }
 }
